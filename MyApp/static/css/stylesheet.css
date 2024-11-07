@@ -1,0 +1,9 @@
+h2{
+    color: blueviolet;
+}
+p{
+    color: blue;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    text-align: center;
+    border: 16px solid burlywood;
+}

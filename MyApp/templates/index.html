@@ -1,6 +1,8 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,5 +16,6 @@
 <a href="{% url 'my_blog' %}">blog</a>
 <a href="{% url 'my_contacts' %}">contact us</a>
 <h2>Welcome to Django. This is our landing page.</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam architecto dolorem eligendi error eveniet minus nesciunt nisi veritatis? Accusamus cumque eos esse exercitationem iure nemo quae quasi sint voluptate.</p>
 </body>
 </html>
